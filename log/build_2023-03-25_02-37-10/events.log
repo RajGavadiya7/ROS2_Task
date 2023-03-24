@@ -1,0 +1,58 @@
+[0.000000] (-) TimerEvent: {}
+[0.001597] (jderobot) JobQueued: {'identifier': 'jderobot', 'dependencies': OrderedDict()}
+[0.003017] (jderobot) JobStarted: {'identifier': 'jderobot'}
+[0.090884] (-) TimerEvent: {}
+[0.192041] (-) TimerEvent: {}
+[0.292589] (-) TimerEvent: {}
+[0.393055] (-) TimerEvent: {}
+[0.493650] (-) TimerEvent: {}
+[0.596366] (-) TimerEvent: {}
+[0.697296] (-) TimerEvent: {}
+[0.798356] (-) TimerEvent: {}
+[0.899734] (-) TimerEvent: {}
+[1.000343] (-) TimerEvent: {}
+[1.101174] (-) TimerEvent: {}
+[1.202083] (-) TimerEvent: {}
+[1.302889] (-) TimerEvent: {}
+[1.403474] (-) TimerEvent: {}
+[1.504056] (-) TimerEvent: {}
+[1.604641] (-) TimerEvent: {}
+[1.688559] (jderobot) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/jderobot', 'build', '--build-base', '/home/raj/GSOC2023/build/jderobot/build', 'install', '--record', '/home/raj/GSOC2023/build/jderobot/install.log', '--single-version-externally-managed'], 'cwd': '/home/raj/GSOC2023/src/jderobot', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'raj', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/raj', 'OLDPWD': '/home/raj', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1408', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'LIBVIRT_DEFAULT_URI': 'qemu:///system', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/raj/GSOC2023/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'raj', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'raj', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/raj-virtual-machine:@/tmp/.ICE-unix/1367,unix/raj-virtual-machine:/tmp/.ICE-unix/1367', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/8e89b1eb_cbbe_45c7_8024_e695aad66eca', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.ZYQW11', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.94', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/raj/GSOC2023/install/jderobot:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/raj/GSOC2023/build/jderobot', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/raj/GSOC2023/build/jderobot/prefix_override:/home/raj/GSOC2023/install/jderobot/lib/python3.10/site-packages:/home/raj/GSOC2023/install/jderobot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[1.705270] (-) TimerEvent: {}
+[1.808580] (-) TimerEvent: {}
+[1.909825] (-) TimerEvent: {}
+[2.010313] (-) TimerEvent: {}
+[2.110978] (-) TimerEvent: {}
+[2.113638] (jderobot) StdoutLine: {'line': b'running egg_info\n'}
+[2.114949] (jderobot) StdoutLine: {'line': b'writing ../../build/jderobot/jderobot.egg-info/PKG-INFO\n'}
+[2.124078] (jderobot) StdoutLine: {'line': b'writing dependency_links to ../../build/jderobot/jderobot.egg-info/dependency_links.txt\n'}
+[2.124560] (jderobot) StdoutLine: {'line': b'writing entry points to ../../build/jderobot/jderobot.egg-info/entry_points.txt\n'}
+[2.125363] (jderobot) StdoutLine: {'line': b'writing requirements to ../../build/jderobot/jderobot.egg-info/requires.txt\n'}
+[2.126209] (jderobot) StdoutLine: {'line': b'writing top-level names to ../../build/jderobot/jderobot.egg-info/top_level.txt\n'}
+[2.129340] (jderobot) StdoutLine: {'line': b"reading manifest file '../../build/jderobot/jderobot.egg-info/SOURCES.txt'\n"}
+[2.133690] (jderobot) StdoutLine: {'line': b"writing manifest file '../../build/jderobot/jderobot.egg-info/SOURCES.txt'\n"}
+[2.133871] (jderobot) StdoutLine: {'line': b'running build\n'}
+[2.134273] (jderobot) StdoutLine: {'line': b'running build_py\n'}
+[2.142337] (jderobot) StdoutLine: {'line': b'copying jderobot/sub.py -> /home/raj/GSOC2023/build/jderobot/build/lib/jderobot\n'}
+[2.142737] (jderobot) StdoutLine: {'line': b'copying jderobot/pub.py -> /home/raj/GSOC2023/build/jderobot/build/lib/jderobot\n'}
+[2.143027] (jderobot) StdoutLine: {'line': b'running install\n'}
+[2.148707] (jderobot) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[2.148999] (jderobot) StderrLine: {'line': b'  warnings.warn(\n'}
+[2.149456] (jderobot) StdoutLine: {'line': b'running install_lib\n'}
+[2.149869] (jderobot) StdoutLine: {'line': b'copying /home/raj/GSOC2023/build/jderobot/build/lib/jderobot/sub.py -> /home/raj/GSOC2023/install/jderobot/lib/python3.10/site-packages/jderobot\n'}
+[2.149968] (jderobot) StdoutLine: {'line': b'copying /home/raj/GSOC2023/build/jderobot/build/lib/jderobot/pub.py -> /home/raj/GSOC2023/install/jderobot/lib/python3.10/site-packages/jderobot\n'}
+[2.150107] (jderobot) StdoutLine: {'line': b'byte-compiling /home/raj/GSOC2023/install/jderobot/lib/python3.10/site-packages/jderobot/sub.py to sub.cpython-310.pyc\n'}
+[2.150396] (jderobot) StdoutLine: {'line': b'byte-compiling /home/raj/GSOC2023/install/jderobot/lib/python3.10/site-packages/jderobot/pub.py to pub.cpython-310.pyc\n'}
+[2.151393] (jderobot) StdoutLine: {'line': b'running install_data\n'}
+[2.152393] (jderobot) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.155138] (jderobot) StdoutLine: {'line': b"removing '/home/raj/GSOC2023/install/jderobot/lib/python3.10/site-packages/jderobot-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[2.159408] (jderobot) StdoutLine: {'line': b'Copying ../../build/jderobot/jderobot.egg-info to /home/raj/GSOC2023/install/jderobot/lib/python3.10/site-packages/jderobot-0.0.0-py3.10.egg-info\n'}
+[2.162342] (jderobot) StdoutLine: {'line': b'running install_scripts\n'}
+[2.201338] (jderobot) StdoutLine: {'line': b'Installing listener script to /home/raj/GSOC2023/install/jderobot/lib/jderobot\n'}
+[2.202387] (jderobot) StdoutLine: {'line': b'Installing talker script to /home/raj/GSOC2023/install/jderobot/lib/jderobot\n'}
+[2.203624] (jderobot) StdoutLine: {'line': b"writing list of installed files to '/home/raj/GSOC2023/build/jderobot/install.log'\n"}
+[2.211165] (-) TimerEvent: {}
+[2.256843] (jderobot) CommandEnded: {'returncode': 0}
+[2.317299] (-) TimerEvent: {}
+[2.344755] (jderobot) JobEnded: {'identifier': 'jderobot', 'rc': 0}
+[2.348603] (-) EventReactorShutdown: {}

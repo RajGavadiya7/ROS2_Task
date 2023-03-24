@@ -1,0 +1,4 @@
+[console_scripts]
+listener = jderobot.sub:main
+talker = jderobot.pub:main
+

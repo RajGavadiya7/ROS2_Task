@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../../build/jderobot/jderobot.egg-info/PKG-INFO
+../../build/jderobot/jderobot.egg-info/SOURCES.txt
+../../build/jderobot/jderobot.egg-info/dependency_links.txt
+../../build/jderobot/jderobot.egg-info/entry_points.txt
+../../build/jderobot/jderobot.egg-info/requires.txt
+../../build/jderobot/jderobot.egg-info/top_level.txt
+../../build/jderobot/jderobot.egg-info/zip-safe
+jderobot/__init__.py
+jderobot/pub.py
+jderobot/sub.py
+resource/jderobot
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

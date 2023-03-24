@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/jderobot/jderobot.egg-info
+writing ../../build/jderobot/jderobot.egg-info/PKG-INFO
+writing dependency_links to ../../build/jderobot/jderobot.egg-info/dependency_links.txt
+writing entry points to ../../build/jderobot/jderobot.egg-info/entry_points.txt
+writing requirements to ../../build/jderobot/jderobot.egg-info/requires.txt
+writing top-level names to ../../build/jderobot/jderobot.egg-info/top_level.txt
+writing manifest file '../../build/jderobot/jderobot.egg-info/SOURCES.txt'
+reading manifest file '../../build/jderobot/jderobot.egg-info/SOURCES.txt'
+writing manifest file '../../build/jderobot/jderobot.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/raj/GSOC2023/build/jderobot/build
+creating /home/raj/GSOC2023/build/jderobot/build/lib
+creating /home/raj/GSOC2023/build/jderobot/build/lib/jderobot
+copying jderobot/__init__.py -> /home/raj/GSOC2023/build/jderobot/build/lib/jderobot
+copying jderobot/sub.py -> /home/raj/GSOC2023/build/jderobot/build/lib/jderobot
+copying jderobot/pub.py -> /home/raj/GSOC2023/build/jderobot/build/lib/jderobot
+running install
+running install_lib
+creating /home/raj/GSOC2023/install/jderobot/lib/python3.10/site-packages/jderobot
+copying /home/raj/GSOC2023/build/jderobot/build/lib/jderobot/__init__.py -> /home/raj/GSOC2023/install/jderobot/lib/python3.10/site-packages/jderobot
+copying /home/raj/GSOC2023/build/jderobot/build/lib/jderobot/sub.py -> /home/raj/GSOC2023/install/jderobot/lib/python3.10/site-packages/jderobot
+copying /home/raj/GSOC2023/build/jderobot/build/lib/jderobot/pub.py -> /home/raj/GSOC2023/install/jderobot/lib/python3.10/site-packages/jderobot
+byte-compiling /home/raj/GSOC2023/install/jderobot/lib/python3.10/site-packages/jderobot/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/raj/GSOC2023/install/jderobot/lib/python3.10/site-packages/jderobot/sub.py to sub.cpython-310.pyc
+byte-compiling /home/raj/GSOC2023/install/jderobot/lib/python3.10/site-packages/jderobot/pub.py to pub.cpython-310.pyc
+running install_data
+creating /home/raj/GSOC2023/install/jderobot/share/ament_index
+creating /home/raj/GSOC2023/install/jderobot/share/ament_index/resource_index
+creating /home/raj/GSOC2023/install/jderobot/share/ament_index/resource_index/packages
+copying resource/jderobot -> /home/raj/GSOC2023/install/jderobot/share/ament_index/resource_index/packages
+copying package.xml -> /home/raj/GSOC2023/install/jderobot/share/jderobot
+running install_egg_info
+Copying ../../build/jderobot/jderobot.egg-info to /home/raj/GSOC2023/install/jderobot/lib/python3.10/site-packages/jderobot-0.0.0-py3.10.egg-info
+running install_scripts
+Installing listener script to /home/raj/GSOC2023/install/jderobot/lib/jderobot
+Installing talker script to /home/raj/GSOC2023/install/jderobot/lib/jderobot
+writing list of installed files to '/home/raj/GSOC2023/build/jderobot/install.log'

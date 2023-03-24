@@ -1,0 +1,43 @@
+[2.135s] Invoking command in '/home/raj/GSOC2023/src/jderobot': PYTHONPATH=/home/raj/GSOC2023/build/jderobot/prefix_override:/home/raj/GSOC2023/install/jderobot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/jderobot build --build-base /home/raj/GSOC2023/build/jderobot/build install --record /home/raj/GSOC2023/build/jderobot/install.log --single-version-externally-managed
+[2.728s] running egg_info
+[2.730s] creating ../../build/jderobot/jderobot.egg-info
+[2.730s] writing ../../build/jderobot/jderobot.egg-info/PKG-INFO
+[2.731s] writing dependency_links to ../../build/jderobot/jderobot.egg-info/dependency_links.txt
+[2.734s] writing entry points to ../../build/jderobot/jderobot.egg-info/entry_points.txt
+[2.738s] writing requirements to ../../build/jderobot/jderobot.egg-info/requires.txt
+[2.738s] writing top-level names to ../../build/jderobot/jderobot.egg-info/top_level.txt
+[2.738s] writing manifest file '../../build/jderobot/jderobot.egg-info/SOURCES.txt'
+[2.741s] reading manifest file '../../build/jderobot/jderobot.egg-info/SOURCES.txt'
+[2.745s] writing manifest file '../../build/jderobot/jderobot.egg-info/SOURCES.txt'
+[2.747s] running build
+[2.748s] running build_py
+[2.749s] creating /home/raj/GSOC2023/build/jderobot/build
+[2.749s] creating /home/raj/GSOC2023/build/jderobot/build/lib
+[2.751s] creating /home/raj/GSOC2023/build/jderobot/build/lib/jderobot
+[2.755s] copying jderobot/__init__.py -> /home/raj/GSOC2023/build/jderobot/build/lib/jderobot
+[2.759s] copying jderobot/sub.py -> /home/raj/GSOC2023/build/jderobot/build/lib/jderobot
+[2.759s] copying jderobot/pub.py -> /home/raj/GSOC2023/build/jderobot/build/lib/jderobot
+[2.759s] running install
+[2.766s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.766s]   warnings.warn(
+[2.766s] running install_lib
+[2.766s] creating /home/raj/GSOC2023/install/jderobot/lib/python3.10/site-packages/jderobot
+[2.767s] copying /home/raj/GSOC2023/build/jderobot/build/lib/jderobot/__init__.py -> /home/raj/GSOC2023/install/jderobot/lib/python3.10/site-packages/jderobot
+[2.767s] copying /home/raj/GSOC2023/build/jderobot/build/lib/jderobot/sub.py -> /home/raj/GSOC2023/install/jderobot/lib/python3.10/site-packages/jderobot
+[2.767s] copying /home/raj/GSOC2023/build/jderobot/build/lib/jderobot/pub.py -> /home/raj/GSOC2023/install/jderobot/lib/python3.10/site-packages/jderobot
+[2.767s] byte-compiling /home/raj/GSOC2023/install/jderobot/lib/python3.10/site-packages/jderobot/__init__.py to __init__.cpython-310.pyc
+[2.770s] byte-compiling /home/raj/GSOC2023/install/jderobot/lib/python3.10/site-packages/jderobot/sub.py to sub.cpython-310.pyc
+[2.773s] byte-compiling /home/raj/GSOC2023/install/jderobot/lib/python3.10/site-packages/jderobot/pub.py to pub.cpython-310.pyc
+[2.773s] running install_data
+[2.776s] creating /home/raj/GSOC2023/install/jderobot/share/ament_index
+[2.776s] creating /home/raj/GSOC2023/install/jderobot/share/ament_index/resource_index
+[2.777s] creating /home/raj/GSOC2023/install/jderobot/share/ament_index/resource_index/packages
+[2.777s] copying resource/jderobot -> /home/raj/GSOC2023/install/jderobot/share/ament_index/resource_index/packages
+[2.777s] copying package.xml -> /home/raj/GSOC2023/install/jderobot/share/jderobot
+[2.778s] running install_egg_info
+[2.784s] Copying ../../build/jderobot/jderobot.egg-info to /home/raj/GSOC2023/install/jderobot/lib/python3.10/site-packages/jderobot-0.0.0-py3.10.egg-info
+[2.788s] running install_scripts
+[2.879s] Installing listener script to /home/raj/GSOC2023/install/jderobot/lib/jderobot
+[2.883s] Installing talker script to /home/raj/GSOC2023/install/jderobot/lib/jderobot
+[2.888s] writing list of installed files to '/home/raj/GSOC2023/build/jderobot/install.log'
+[3.027s] Invoked command in '/home/raj/GSOC2023/src/jderobot' returned '0': PYTHONPATH=/home/raj/GSOC2023/build/jderobot/prefix_override:/home/raj/GSOC2023/install/jderobot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/jderobot build --build-base /home/raj/GSOC2023/build/jderobot/build install --record /home/raj/GSOC2023/build/jderobot/install.log --single-version-externally-managed

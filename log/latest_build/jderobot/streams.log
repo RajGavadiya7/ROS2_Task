@@ -1,0 +1,24 @@
+[1.418s] Invoking command in '/home/raj/GSOC2023/src/jderobot': PYTHONPATH=/home/raj/GSOC2023/build/jderobot/prefix_override:/home/raj/GSOC2023/install/jderobot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/jderobot build --build-base /home/raj/GSOC2023/build/jderobot/build install --record /home/raj/GSOC2023/build/jderobot/install.log --single-version-externally-managed
+[2.000s] running egg_info
+[2.003s] writing ../../build/jderobot/jderobot.egg-info/PKG-INFO
+[2.004s] writing dependency_links to ../../build/jderobot/jderobot.egg-info/dependency_links.txt
+[2.006s] writing entry points to ../../build/jderobot/jderobot.egg-info/entry_points.txt
+[2.007s] writing requirements to ../../build/jderobot/jderobot.egg-info/requires.txt
+[2.007s] writing top-level names to ../../build/jderobot/jderobot.egg-info/top_level.txt
+[2.011s] reading manifest file '../../build/jderobot/jderobot.egg-info/SOURCES.txt'
+[2.013s] writing manifest file '../../build/jderobot/jderobot.egg-info/SOURCES.txt'
+[2.014s] running build
+[2.014s] running build_py
+[2.015s] running install
+[2.015s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.015s]   warnings.warn(
+[2.016s] running install_lib
+[2.019s] running install_data
+[2.020s] running install_egg_info
+[2.022s] removing '/home/raj/GSOC2023/install/jderobot/lib/python3.10/site-packages/jderobot-0.0.0-py3.10.egg-info' (and everything under it)
+[2.023s] Copying ../../build/jderobot/jderobot.egg-info to /home/raj/GSOC2023/install/jderobot/lib/python3.10/site-packages/jderobot-0.0.0-py3.10.egg-info
+[2.025s] running install_scripts
+[2.064s] Installing listener script to /home/raj/GSOC2023/install/jderobot/lib/jderobot
+[2.067s] Installing talker script to /home/raj/GSOC2023/install/jderobot/lib/jderobot
+[2.070s] writing list of installed files to '/home/raj/GSOC2023/build/jderobot/install.log'
+[2.151s] Invoked command in '/home/raj/GSOC2023/src/jderobot' returned '0': PYTHONPATH=/home/raj/GSOC2023/build/jderobot/prefix_override:/home/raj/GSOC2023/install/jderobot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/jderobot build --build-base /home/raj/GSOC2023/build/jderobot/build install --record /home/raj/GSOC2023/build/jderobot/install.log --single-version-externally-managed
